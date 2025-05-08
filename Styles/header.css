@@ -17,17 +17,31 @@ body{
 }
 
 ul{
-  list-style: none;
-  display: flex;
-  width: fit-content;
-  gap: 24%;
-  justify-content: center;
-  align-items: center;
+  display: none;
 }
+
 
 #menu-bar, .material-icons{
   font-size: 24px;
+  cursor: pointer;
 }
+#side-bar{
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 40vw;
+  background-color: rgb(190, 242, 192);
+}
+#x-mark{
+  font-size: 24px;
+  position: absolute;
+  left: 10%;
+  top: 10px;
+  cursor: pointer;
+}
+
 
 footer{
   background-color: rgb(190, 242, 192);
@@ -58,10 +72,17 @@ button{
 .world{
   display: none;
 }
-@media screen and (max-width: 700px) {
+
+@media screen and (min-width: 700px) {
+
 
   ul{
-    display: none;
+  list-style: none;
+  display: flex;
+  width: fit-content;
+  gap: 24%;
+  justify-content: center;
+  align-items: center;
   }
   
 }
