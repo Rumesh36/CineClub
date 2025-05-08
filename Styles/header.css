@@ -19,20 +19,32 @@ body{
 ul{
   display: none;
 }
-
+li{
+  list-style: none;
+}
+#menu-bar,
+#x-mark,
+#side-bar {
+  display: none;
+}
 
 #menu-bar, .material-icons{
   font-size: 24px;
   cursor: pointer;
 }
 #side-bar{
-  display: none;
   position: fixed;
   left: 0;
   top: 0;
   height: 100vh;
   width: 40vw;
   background-color: rgb(190, 242, 192);
+  flex-direction: column;
+  font-size: 1.3rem;
+  align-items: center;
+  padding-top: 1.3rem;
+  
+  
 }
 #x-mark{
   font-size: 24px;
@@ -73,16 +85,26 @@ button{
   display: none;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (max-width: 700px) {
 
 
-  ul{
-  list-style: none;
-  display: flex;
-  width: fit-content;
-  gap: 24%;
-  justify-content: center;
-  align-items: center;
+  .nav-bar {
+    display: none;
+  }
+
+  #menu-bar {
+    display: block;
+    padding: 10px;
+  }
+
+  #side-bar {
+    display: none;
+    display: flex;
+    
+  }
+
+  #x-mark {
+    display: block;
   }
   
 }
