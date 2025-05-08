@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  position: relative;
+  height: 1000px;
+}
+
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 4%;
+  background-color: rgb(190, 242, 192);
+  
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  width: fit-content;
+  gap: 24%;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu-bar, .material-icons{
+  font-size: 24px;
+}
+
+footer{
+  background-color: rgb(190, 242, 192);
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  height: 50px;
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+
+  ul{
+    display: none;
+  }
+  
+}
