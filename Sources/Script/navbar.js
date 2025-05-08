@@ -1,3 +1,4 @@
+function Navbar(){
 const menu = document.getElementById("menu-bar");
 const sidebar = document.getElementById("side-bar");
 const xmark = document.getElementById("x-mark");
@@ -10,3 +11,8 @@ menu.addEventListener("click", ()=>{
 xmark.addEventListener("click", ()=>{
   sidebar.style.display = "none";
 })
+}
+
+document.addEventListener("DOMContentLoaded", Navbar);
+
+export default Navbar

@@ -1,3 +1,7 @@
+import Navbar from "./navbar"
+Navbar()
+
+
 const indiaBtn = document.getElementById("ind")
 const WorldBtn = document.getElementById("world")
 
@@ -14,4 +18,5 @@ WorldBtn.addEventListener("click",()=>{
      indiaimg.style.display="none"
     worldimg.style.display="block"
 })
+
 
