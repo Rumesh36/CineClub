@@ -4,66 +4,52 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="Styles/header.css">
+  <link rel="stylesheet" href="Styles/landing.css">
   <title>CineMax</title>
 </head>
 <body>
-
   <header>
 
+    <nav>
+         <h1 id="logo">CINEMAX</h1>
+         <p >the soul of cinema</p>
+    </nav>
 
-    <!-- Desktop nav -->
-     <div class="nav-bar">
-        <p id="menu-bar"> &#9776; </p>
-        <ul>
-          <li>Home</li>
-          <li>Categories</li>
-          <li>Recents</li>
-          <li>Awards</li>
-          <li>Faqs</li>
-        </ul>
-        <i class="material-icons">search</i>
-     </div>
+   </header>
+<!-- carosel section -->
+<div class="cousel-container">
 
-    <!-- Mobile sidebar -->
-     <div id="side-bar">
-        <p id="x-mark"> &#10005; </p>
-        <ul>
-          <h1 id="logo">CINEMAX</h1>
-          <li>Home</li>
-          <li>Categories</li>
-          <li>Recents</li>
-          <li>Awards</li>
-          <li>Faqs</li>
-        </ul>
-     </div>
+    <img src="" alt="">
 
-  </header>
+    
+    <h3 id="quote-container">Film is incredibly democratic and accessible, 
+        it’s probably the best option if you actually want 
+        to change the world, not just re-decorate it. by bankysy" </h3>
 
-  <div class="btn">
-    <button id="ind">India</button>
-    <button id="world">World</button>
-  </div>
+   <div class="btn">
+    <button id="prev" type="button"><i class="fa-solid fa-arrow-left"></i></button>
+    <button id="next" type="button"><i class="fa-solid fa-arrow-right"></i></button>
+   </div>
 
-<div class="topfive-conatiner">  
-  <div class="india">
-    <img src="Assets/Imgs/demoind.jpeg" alt="">
-    <img src="Assets/Imgs/demoind.jpeg" alt="">
-    <img src="Assets/Imgs/demoind.jpeg" alt="">
-  </div>
-
-  <div class="world">
-    <img src="Assets/Imgs/demo.jpeg" alt="">
-    <img src="Assets/Imgs/demo.jpeg" alt="">
-    <img src="Assets/Imgs/demo.jpeg" alt="">
-  </div>
-
+   
 </div>
-  <footer>
-    <p>@copyright2025 Cinemax</p>
-  </footer>
 
-  <script type="module" src="Sources/Script/Topfive.js"></script>
-  <script type="module" src="Sources/Script/navbar.js"></script>
+<!-- to movies section -->
+ <h2>Top Picked movies</h2>
+
+ <div class="movie-container">
+    <img src="/Assets/Imgs/demo.jpeg" alt="">
+    <img src="/Assets/Imgs/demo.jpeg" alt="">
+    <img src="/Assets/Imgs/demo.jpeg" alt="">
+    <img src="/Assets/Imgs/demo.jpeg" alt="">
+    <img src="/Assets/Imgs/demo.jpeg" alt="">
+    <img src="/Assets/Imgs/demo.jpeg" alt="">
+    <img src="/Assets/Imgs/demo.jpeg" alt="">
+    <img src="/Assets/Imgs/demo.jpeg" alt="">
+    <img src="/Assets/Imgs/demo.jpeg" alt="">
+    
+ </div>
+
+<script src="/Sources/index.js"></script>
 </body>
 </html>
