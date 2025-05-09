@@ -25,8 +25,8 @@ function updateCaruselpage(index){
     const img=document.getElementsByTagName("img")[0]
     img.src=movies.img
     img.alt="movie"
-    img.height=400
-    img.width=400
+    img.height=300
+    img.width=300
     
     const quote=document.getElementById("quote-container")
     quote.innerHTML=movies.quote
