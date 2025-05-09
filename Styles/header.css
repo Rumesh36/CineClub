@@ -4,7 +4,7 @@
 }
 body{
   position: relative;
-  height: 1000px;
+
 }
 
 .nav-bar{
@@ -16,10 +16,17 @@ body{
   
 }
 
-ul{
+.nav-bar ul{
   display: none;
 }
 
+#side-bar ul{
+  text-align: center;
+  margin-top: 20%;
+}
+#side-bar ul li{
+  margin-top: 10%;
+}
 
 #menu-bar, .material-icons{
   font-size: 24px;
@@ -76,13 +83,15 @@ button{
 @media screen and (min-width: 700px) {
 
 
-  ul{
+  .nav-bar ul{
   list-style: none;
   display: flex;
-  width: fit-content;
-  gap: 24%;
-  justify-content: center;
+  gap: 8vw;
   align-items: center;
+  }
+
+  #menu-bar{
+    display: none;
   }
   
 }
