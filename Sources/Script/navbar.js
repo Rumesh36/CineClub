@@ -1,16 +1,14 @@
 
-const menu = document.getElementById("menu-bar");
-const sidebar = document.getElementById("side-bar");
-const xmark = document.getElementById("x-mark");
-const lists = document.getElementsByTagName("ul")[0];
+const navbar =document.getElementById("navbar")
 
-menu.addEventListener("click", ()=>{
-  sidebar.style.display = "block";
+const hambar =document.getElementById("hambar-button")
+
+const close =document.getElementById("close-button")
+
+hambar.addEventListener("click",()=>{
+  navbar.classList.add("show")
 })
 
-xmark.addEventListener("click", ()=>{
-  sidebar.style.display = "none";
+close.addEventListener("click",()=>{
+  navbar.classList.remove("show")
 })
-
-
-

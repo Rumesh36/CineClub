@@ -1,6 +1,6 @@
 
-const indiaBtn = document.getElementById("ind")
-const WorldBtn = document.getElementById("world")
+const indiaBtn = document.getElementById("ind-btn")
+const WorldBtn = document.getElementById("world-btn")
 
 const indiaimg = document.getElementsByClassName("india")[0]
 const worldimg = document.getElementsByClassName("world")[0]

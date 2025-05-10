@@ -4,15 +4,24 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="Styles/index.css">
   <title>CineMax</title>
 </head>
 <body>
   <header>
 
-    <nav>
-         <h1 id="logo">CINEMAX</h1>
-         <p >the soul of cinema</p>
+    <button id="hambar-button"><i class="fa-solid fa-bars"></i></i></button>
+    <nav id="navbar">
+        <ul>
+           <li id="close-button"><i class="fa-solid fa-xmark"></i></li>
+            <li class="cine-li"><a href="" class="cine-link">CINEMAX</a></li>
+            <li ><a href="/Pages/Topmovies.html">Top Movies</a></li>
+            <li><a href="">Categories</a></li>
+            <li><a href="">Recents</a></li>
+            <li><a href="">Awards</a></li>
+            <li><a href="">Faqs</a></li>
+        </ul>
     </nav>
 
    </header>
@@ -50,6 +59,7 @@
     
  </div>
 
-<script src="Sources/carousel.js"></script>
+<script  type="module" src="Sources/carousel.js"></script>
+<script  type="module" src="Sources/Script/navbar.js"></script>
 </body>
 </html>
