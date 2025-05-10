@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="../Styles/nav.css">
+    <link rel="stylesheet" href="../Styles/category.css">
+    <title>Category page</title>
+</head>
+<body>
+    <header>
+
+        <button id="hambar-button"><i class="fa-solid fa-bars"></i></i></button>
+        <h4 id="logo">CINEMAX</h4>
+    
+        <nav id="navbar">
+            <ul>
+               <li id="close-button"><i class="fa-solid fa-xmark"></i></li>
+                <li class="cine-li"><a href="" class="cine-link">CINEMAX</a></li>
+                <li ><a href="../index.html">Home</a></li>
+                <li><a href="../Pages/Topmovies.html">Top Movies</a></li>
+                <li><a href="">Recents</a></li>
+                <li><a href="">Awards</a></li>
+                <li><a href="">Faqs</a></li>
+            </ul>
+        </nav>
+
+       </header>
+
+<div class="category-container">
+
+  <label for="classselect" id="cat">Choose the Category</label>
+    <select name="category" id="category-select">
+       <option value="horror">Horror</option>
+      <option value="sci-fi">Sci-Fi</option>
+      <option value="romance">Romance</option>
+      <option value="action">Action</option>
+    </select>
+
+</div>
+
+
+ <div class="movies-category">
+
+    <div class="horror">
+        <img src="../Assets/Imgs/hooror.jpg" alt="">
+        <img src="../Assets/Imgs/hooror.jpg" alt="">
+        <img src="../Assets/Imgs/hooror.jpg" alt="">
+       
+    </div>
+
+    <div class="sci-fi">
+        <img src="../Assets/Imgs/scifi.jpg" alt="">
+        <img src="../Assets/Imgs/scifi.jpg" alt="">
+        <img src="../Assets/Imgs/scifi.jpg" alt="">
+    </div>
+
+    <div class="romance">
+        <img src="../Assets/Imgs/romance.jpeg" alt="">
+        <img src="../Assets/Imgs/romance.jpeg" alt="">
+        <img src="../Assets/Imgs/romance.jpeg" alt="">
+    </div>
+
+    <div class="action">
+        <img src="../Assets/Imgs/action.jpg" alt="">
+        <img src="../Assets/Imgs/action.jpg" alt="">
+        <img src="../Assets/Imgs/action.jpg" alt="">
+    </div>
+
+ </div>  
+       
+      <script type="module" src="../Sources/Script/navbar.js"></script> 
+      <script type="module" src="../Sources/Script/category.js"></script>
+</body>
+</html>
