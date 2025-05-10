@@ -105,7 +105,7 @@ h2{
         position: fixed;
         top:0;
         right: -100%;
-        height: 65dvh;
+        height: 65vh;
         width: min(18em,100%);
         z-index: 9;
         border-left: 1px solid #e1dfdf;
