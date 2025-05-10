@@ -40,8 +40,8 @@ nav a:hover:not(.cine-link) {
     border: none;
     margin-left: auto;
     cursor: pointer;
-    padding-left: 15px;
-    padding-right: 15px;
+  
+   font-size: 2rem;
 }
 #close-button{
     display: none;
@@ -105,7 +105,7 @@ h2{
         position: fixed;
         top:0;
         right: -100%;
-        height: 50dvh;
+        height: 65dvh;
         width: min(18em,100%);
         z-index: 9;
         border-left: 1px solid #e1dfdf;
