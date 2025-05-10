@@ -57,5 +57,5 @@ setInterval(()=>{
     curindex=(curindex+1)%Movies.length;
     updateCaruselpage(curindex)
 
-},2000)
+},4000)
 updateCaruselpage(curindex)
