@@ -83,6 +83,15 @@ nav a:hover:not(.cine-link) {
   display: none;
   text-align: center;
 }
+#logo{
+  display: block;
+  font-size: 1rem;
+  position: relative;
+  top:-20px;
+  letter-spacing: 1rem;
+  padding-left: 1rem;
+  color: rgb(2, 2, 70);
+}
 
 @media screen and (max-width:830px) {
     

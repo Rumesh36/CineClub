@@ -40,6 +40,8 @@ nav a:hover:not(.cine-link) {
     border: none;
     margin-left: auto;
     cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 #close-button{
     display: none;
@@ -94,6 +96,7 @@ h2{
     top:-20px;
     letter-spacing: 1rem;
     padding-left: 1rem;
+    color: rgb(2, 2, 70);
 }
 
 @media screen and (max-width:830px) {
