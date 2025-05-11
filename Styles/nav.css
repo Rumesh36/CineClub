@@ -8,7 +8,9 @@
   }
   nav {
    background-color: #ffff;
-   border-bottom: 1px solid rgb(233, 231, 231);
+   border-bottom: 1px solid rgb(233, 231, 231);  
+   padding-bottom: 0.5rem;
+  transition: right 0.2s ease-in-out;
   }
   nav ul{
     list-style: none;
@@ -36,7 +38,7 @@
   }
   #hambar-button{
     display: none;
-    background: none;
+     background:#f2eeee;
     border: none;
     margin-left: auto;
     cursor: pointer;

@@ -2,6 +2,7 @@ img{
     width: 300px;
     height: auto;
     max-width: 100%;
+    border-radius: 15px;
 }
 #cat{
     text-align: center;
@@ -29,7 +30,7 @@ img{
 }
 .horror,
 .action,
-.sci-fi,
+.scifi,
 .romance{
     display: none;
     flex-wrap: wrap;
