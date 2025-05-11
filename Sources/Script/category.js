@@ -28,6 +28,11 @@ select.addEventListener("change",()=>{
         
         item.style.display="flex"
       }  
+})
+window.addEventListener("DOMContentLoaded",()=>{
 
-
+  const selected=select.value
+  for(let item of category[selected]){ 
+    item.style.display="flex"
+  }  
 })
